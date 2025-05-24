@@ -1,0 +1,57 @@
+'''from collections import Counter
+import random
+s=[random.randrange (1, 8) for i in range(10)]
+var=Counter(s)
+print(var)'''
+
+'''from collections import defaultdict
+d=defaultdict(int)
+d['a']=1
+d['b']=2
+print(d['a'])
+print(d['b'])
+print(d['c'])'''
+
+'''from collections import defaultdict
+d=defaultdict(lambda:'no value')
+d['cricket']=('kohli')
+d['badminton']=('sindhu')
+print(d['cricket'])
+print(d['football'])'''
+
+'''from collections import defaultdict
+d=defaultdict(list)
+d['cricket'].append('kohli')
+d['badminton'].append('sindhu')
+print(d['cricket'])
+print(d['football'])'''
+
+'''from collections import deque
+d=deque([3,4,5])
+d.append(6)
+print(d)
+d.appendleft(1)
+print(d)
+d.pop()
+print(d)
+d.popleft()
+print(d)
+d.extend([1,2,3])
+print(d)
+d.extendleft([-2,-1,0])
+print(d)
+d.remove(5)
+print(d)
+d.reverse()
+print(d)
+d.rotate(3)
+print(d)
+d.rotate(-3)
+print(d)'''
+
+'''student=namedtuple('student',['name','branch','marks'])
+s1=student('kiran','cse','508')
+print(s1.name)
+print(s1.marks)
+print(s1._fields)
+print(s1.asdict())'''
