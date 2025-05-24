@@ -1,0 +1,98 @@
+'''t=(1,99.9,'happy',[1,2,3],None)
+print(t)
+print(t[2])
+print(t[2:])'''
+
+
+'''t=(1,99.9,'happy',[1,2,3],None)
+t1=(10,2,3,4)
+print(t+t1)#concatenation
+print(t1*3)#repetition
+print(t1>=t)#relation
+print('happy'in t)#membership
+print(t1 is not t)#identify'''
+
+
+'''pack='supriya','happy','navya','meghana'
+print(pack)
+n1,n2,n3,n4=pack
+print(n1,n2,n3,n4,sep ="\n")'''
+
+
+'''supriya ,*navya,nisha =(1,1,1,1,1,1)
+print(supriya,navya,nisha,sep ="\n")'''
+
+
+
+'''s=set()
+s1={1}
+s2={0,0.0,None,False}
+print(s2)'''
+
+
+'''s={1,2,3,4,5}
+s.add(6)
+print(s)'''
+
+
+'''movies={1:'nenokkadine',2:'iddarmmayiltho',3:'mugguru monagalu',4:'ah naluguru',5:'pandavalu'}
+digits={1:'one',2:'two',3:'three',4:'four',5:'five'}
+print(movies)
+print(movies[2])
+print(3 in movies)
+print(movies.items())
+print(movies.values())
+print(dir(movies))'''
+
+
+'''movies={1:'nenokkadine',2:'iddarmmayiltho',3:'mugguru monagalu',4:'ah naluguru',5:'pandavalu'}
+movies[6]='anaganaga'
+print(movies)
+movies.pop(5)
+print(movies)
+print(movies.get(55))
+print(movies.setdefault(5,'five'))'''
+
+
+'''movies={1:'nenokkadine',2:'iddarammailatho',3:'three',4:'aa naluguru',5:'pandavulu'}
+print(sorted(movies,reverse=True))
+print(sorted(movies.values(),reverse=True))
+print(sorted(movies.items(),reverse=True))'''
+
+
+'''cricket={183:'dhoni',183:'kohli',264:'rohit',128:'rahul',92:'pandya'}
+print(cricket)
+max_value=max(cricket.values())
+print(max_value)'''
+
+
+'''li1=['hulk','iron man','goku']
+li2=['she hulk','pepper pots','wonder woman','wanda visison']
+print(dict(zip(li1,li2)))'''
+
+
+'''d={}
+for i in range(5):
+    a=input()
+    b=int(input())
+    d[a]=b
+print(d)
+print(max(d.values()))'''
+
+
+'''names=['vinod','sairam','meghana','swathi']
+d={}
+for i in names:
+    d[i]=len(i)
+print(d)'''
+
+
+'''names={'supriya','swathi','navya','nisha'}
+print({name:len(name) for name in names})
+print({name:'even_length' if len(name)%2==0 else 'odd_length' for name in names if len(name)>5})'''
+
+
+
+'''name=input()
+d={i:name.count(i) for i in name}
+print(d)'''
