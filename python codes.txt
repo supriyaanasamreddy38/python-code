@@ -1,0 +1,204 @@
+year=int(input())
+if year%4==0:
+    if year%100==0:
+        if year%400==0:
+            print("LEAP YEAR")
+        else:
+            print("NOT A LEAP YEAR")
+    else:
+         print("LEAP YEAR")
+else:
+    print("NOT A LEAP YEAR")'''
+
+
+
+'''import keyword
+print(len(keyword.kwlist))'''
+
+'''yaswini_devi=1
+print(yaswini_devi)'''
+
+
+'''తిరుపతి='tirupatii'
+print(తిరుపతి)
+print(id(తిరుపతి))'''
+
+'''name='k'
+print(type(name))'''
+
+"""name="yaswini"
+print(id(name))"""
+
+"""year=int(input())
+if year%4==0:
+    if year%100==0:
+        if year%400==0:
+            print("LEAP YEAR")
+        else:
+            print("NOT A LEAP YEAR")
+    else:
+         print("LEAP YEAR")
+else:
+    print("NOT A LEAP YEAR")"""
+
+"""name="yaswini"
+print(type(name))
+print(dir(name))"""
+
+
+
+'''li=[]
+print(type(li))
+li2=[4,4,4,4,6.2,2+7j,None,True,False,'yaswini',"saggu"]
+print(li2)
+for i in li2:
+    print(i,end=' ')
+    print(li2[7])'''
+
+
+
+'''li=[]
+print(type(li))
+li2=[4,4,4,4,6.2,2+7j,None,True,False,'yaswini',"saggu"]
+print(li2)
+for i in li2:
+    print(i,end=' ')
+    print(li2[::2])'''
+
+
+'''places=['korea','uganda','rayachoty','tirupati']
+print(len(places))
+print(max(places))
+print(min(places))
+print(sorted(places))
+print(sorted(places,reverse=True))
+print(places)'''
+
+
+"""a1=[1,2,3]
+a2=a1
+a1.append(5)
+print(a2)
+print(a1)"""
+
+
+'''a1=[1,2,3]
+a2=[4,5,6]
+print(a1+a2)
+print(a1*3+a2*3)
+print([]*10)'''
+
+"""a1=[1,2,3,4]
+a2=[5,6,7,8]
+print(a1>a2)"""
+
+'''a1=[1,2,3,4]
+a2=[5,6,7,8]
+print(a1<a2)'''
+
+"""places=['korea','uganda','rayachoty','tirupati']
+print('araku' in places)
+print('uganda' in places)"""
+
+
+"""places=['korea','uganda','rayachoty','tirupati']
+print(id(places))"""
+
+
+#METHODS OF LIST
+
+'''places=['korea','uganda','rayachoty','tirupati']
+places1=["vizag","noida"]
+places.append('kerala')
+places.extend(places1)
+print(places)
+print(places.index('rayachoty'))
+print(places.count('tirupati'))
+places.remove('korea')
+print(places)
+places.pop()
+print(places)
+places.pop(1)
+print(places)
+places.clear()
+print(places)'''
+
+
+#catfood
+
+"""def catfood(n,c,u,arr):
+    if n==0:
+        return 0
+    cf=0
+    rf=c*u
+    for i in range(n):
+        cf=cf+arr[i]
+        if cf>=rf:
+            return i+1
+    if cf<rf:
+        return -1
+n=int(input())
+c=int(input())
+u=int(input())
+arr=[]
+for i in range(n):
+    arr.append(int(input()))
+print(catfood(n,c,u,arr))  """             
+
+
+"""def Missing_Digits(num):
+    number=str(num)
+    Missing_Digits=[]
+    for i in range(10):
+        if str(i) not in number:
+            Missing_Digits.append(i)
+    return Missing_Digits
+num=int(input())
+print(Missing_Digits(num))"""
+
+"""def MissingDigits(num):
+    li=[false]*10
+    while num:
+        li[num%10]=True
+        num=num//10
+        return li
+    num=int(input())
+    result=MissingDigits(num)
+    for i in range(10):
+        if not result[i]:
+            print(i,end=' ')"""
+
+
+#squaring of values
+
+"""a=[1,2,3,4,5]
+sq=[]
+for i in a:
+    sq.append(i*i)
+    print(sq)"""
+        
+
+"""print([a*a for a in range(1,6)])"""
+
+
+"""print([X*X for X in range(1,11) if X%2==1])"""
+
+"""n=int(input())
+print(['fizz' if i%n==0 else 'buzz' for i in range(1,16)])"""
+
+
+"""a1=[1,2,3]
+a2=a1
+a2.append(21)
+print(a1)
+print(a2)"""
+
+
+"""a1=[1,2,3]
+a2=a1.copy()
+a2.append(21)
+print(a1)
+print(a2)"""
+
+
+""""""
